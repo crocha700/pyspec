@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyspec/__init__.py
+pyspec/helmholtz.py
+pyspec/spectrum.py
+pyspec.egg-info/PKG-INFO
+pyspec.egg-info/SOURCES.txt
+pyspec.egg-info/dependency_links.txt
+pyspec.egg-info/not-zip-safe
+pyspec.egg-info/requires.txt
+pyspec.egg-info/top_level.txt

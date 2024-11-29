@@ -64,8 +64,8 @@ def spec_helm_decomp(k,Cu,Cv,GM=False):
         Fs = Cv[i:]*sh + Cu[i:]*ch
 
         # integrate using Simpson's rule
-        Fpsi[i] = integrate.simpson(Fs,s[i:])
-        Fphi[i] = integrate.simpson(Fp,s[i:])
+        Fpsi[i] = integrate.simps(Fs,s[i:])
+        Fphi[i] = integrate.simps(Fp,s[i:])
 
         # zero out unphysical values
         Fpsi[Fpsi < 0.] = 0.

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyspec
+Version: 0.1.dev1
+Summary: A pythonian package for spectral              analysis
+Home-page: http://github.com/crocha700/pyspec
+Author: Cesar B Rocha
+Author-email: crocha@ucsd.edu
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
